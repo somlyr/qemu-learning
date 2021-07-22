@@ -3,4 +3,4 @@
 ```
 C:\Program Files\Oracle\VirtualBox>VBoxManage.exe modifyvm "dev-desk" --nested-hw-virt on
 ```
-其中dev-desk为需要设置的虚机名
+*其中dev-desk为需要设置的虚机名*
