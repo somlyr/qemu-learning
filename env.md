@@ -1,4 +1,4 @@
-####基本环境设置
+#### 基本环境设置
 ----
 1、本次实验使用的Host OS为：**ubuntu-20.04.2.0-desktop-amd64.iso**
 Host OS的安装过程为标准virtualbox虚机安装，本次实验希望能使用virtualbox的共享目录作为与外部交换的空间，所以在安装完ubuntu虚机后需要安装virtualbox扩展增强包，本次实验的外部共享目录如下：
@@ -57,7 +57,7 @@ VBoxManage setextradata *vm-name* VBoxInternal2/SharedFoldersEnableSymlinksCreat
 VBoxManage getextradata *vm-name* enumerate
 ```
 
-####网络设置
+#### 网络设置
 在libvirt安装过程中，会默认创建一个**virbr0**的桥接设备：
 ```
 # brctl show
